@@ -144,6 +144,7 @@ width: 10%; padding: 10px;}
     color: white;
     background-color: rgb(141, 135, 135);
     background-image: url(ima-removebg-preview.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -178,6 +179,19 @@ width: 10%; padding: 10px;}
 .displa{
     border: 40px solid rgba(255, 255, 255, 0.082);
     height: 250px;
+}
+fieldset{
+    width: 480px;
+    margin-top: -70px;
+    height: 300px;
+    margin-left: 30px;
+    border: 5px solid white;
+    color: white;
+}
+legend{
+    margin-left: -18px;
+    font-size: 2em;
+    font-weight: 700;
 }
 
 
@@ -226,6 +240,7 @@ sup{
     color: white;
     background-color: gray;
     background-image: url(images.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -343,6 +358,41 @@ sup{
         }
         button{
             width: 40%;
+        }
+        .sec1{
+            display: flex;
+             flex-direction: column;
+            align-items: start;
+           
+         }
+         .section1{
+            display: flex;
+            flex-direction: column;
+            
+            height: 810px;
+         }
+         .sec3, .sec4{
+            
+                height: 330px;
+                width: 100%;
+               
+         }
+         .displa{
+            border: 40px solid rgba(255, 255, 255, 0.082);
+            height: 250px;
+        }
+        fieldset{
+            width: 80%;
+            margin-top: -10px;
+            height: 230px;
+            margin-left: 30px;
+            border: 5px solid white;
+            color: white;
+        }
+        legend{
+            margin-left: -10px;
+            font-size: 1em;
+            font-weight: 700;
         }
    }
     /*header{
