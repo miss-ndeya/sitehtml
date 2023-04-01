@@ -239,8 +239,8 @@ sup{
     width: 40%;
     color: white;
     background-color: gray;
-    background-image: url(images.jpg);
-    background-position: center center;
+    background-image: url('images.jpg');
+   
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
